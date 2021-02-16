@@ -1,18 +1,35 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    <Title />
+    <GoogleLogin />
+    <Return />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
+import GoogleLogin from '../components/GoogleLogin.vue';
+import Title from '../components/Title.vue'
+import Return from '../components/Return.vue'
 
 export default Vue.extend({
   name: 'Home',
   components: {
-    HelloWorld,
+    GoogleLogin,
+    Title,
+    Return
   },
 });
 </script>
+
+<style scoped>
+.home {
+  z-index: 0;
+  height: 812px;
+}
+
+body {
+  background-image: url("");
+}
+
+</style>
