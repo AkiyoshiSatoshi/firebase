@@ -7,9 +7,13 @@
 <style scoped>
 
 
-.title p {
-  font-family: fantasy;
-  font-size: 24px;
+.title {
+  padding-top: 100px;
+}
 
+.title p {
+  color: #45a7bb;
+  font-family: fantasy;
+  font-size: 35px;
 }
 </style>

@@ -37,7 +37,7 @@ export default Vue.extend({
 
 <style scoped>
 .google-button {
-  margin-top: 100px;
+
   height: 40px;
   border-width: 0;
   border-radius: 5px;
